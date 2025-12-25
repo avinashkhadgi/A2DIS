@@ -31,37 +31,90 @@
   </div>
 </nav>
 
-<section class="hero text-center mt-5">
+<section id="home" class="hero text-white text-center" style="background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1601600576337-c1d8a0d1373c'); background-size:cover; background-position:center; padding:120px 20px;">
   <div class="container">
-    <h1 id="headline"></h1>
+    <h1 class="display-5 fw-bold" id="headline"></h1>
     <p class="lead" id="tagline"></p>
-    <span class="badge badge-region" id="region"></span>
+    <span class="badge bg-success mb-3" id="region"></span>
     <div class="mt-4">
-      <a id="whatsappLink" class="btn btn-success me-2">WhatsApp</a>
-      <a id="callLink" class="btn btn-primary">Call Now</a>
+      <a id="whatsappLink" class="btn btn-success btn-lg me-2">WhatsApp Now</a>
+      <a id="callLink" class="btn btn-outline-light btn-lg">Call Us</a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="container my-5">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <h2 class="fw-bold">About A2 Distributor</h2>
+      <p id="aboutText"></p>
+    </div>
+    <div class="col-md-6 text-center">
+      <img src="https://images.unsplash.com/photo-1586521995568-39abaa0c2311" class="img-fluid rounded shadow" alt="Distribution">
+    </div>
+  </div>
+</section>
+
+<section id="services" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-4">Our Services</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body text-center">
+            <h5 class="card-title">Distributor</h5>
+            <p class="card-text">Reliable FMCG distribution network with timely supply across Nagpur and surrounding markets.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body text-center">
+            <h5 class="card-title">Super Stockist</h5>
+            <p class="card-text">Official super stockist of Ashwagandha Agarbatti for the entire Vidarbha region.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body text-center">
+            <h5 class="card-title">Logistics Support</h5>
+            <p class="card-text">Efficient warehousing and delivery support ensuring smooth supply chain operations.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 <section class="container my-5">
-  <h2>About Us</h2>
-  <p id="aboutText"></p>
-</section>
-
-<section class="container my-5">
-  <h2>Brands We Distribute</h2>
-  <ul id="brandsList"></ul>
-</section>
-
-<section class="bg-light py-5">
-  <div class="container">
-    <h2>Contact Us</h2>
-    <p><strong>Phone:</strong> <span id="phone"></span></p>
-    <p><strong>Email:</strong> <span id="email"></span></p>
+  <h2 class="text-center fw-bold mb-4">Why Choose A2 Distributor</h2>
+  <div class="row g-4">
+    <div class="col-md-3"><div class="p-3 text-center border rounded">Trusted FMCG Partner</div></div>
+    <div class="col-md-3"><div class="p-3 text-center border rounded">Wide Market Reach</div></div>
+    <div class="col-md-3"><div class="p-3 text-center border rounded">On-Time Delivery</div></div>
+    <div class="col-md-3"><div class="p-3 text-center border rounded">Retailer Support</div></div>
   </div>
 </section>
 
-<footer class="bg-dark text-white text-center py-3">
+<section id="contact" class="bg-dark text-white py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h4 class="fw-bold">Contact A2 Distributor Nagpur</h4>
+        <p><strong>Phone:</strong> <span id="phone"></span></p>
+        <p><strong>Email:</strong> <span id="email"></span></p>
+        <p><strong>Location:</strong> Nagpur, Maharashtra</p>
+        <a id="whatsappLink" class="btn btn-success">Chat on WhatsApp</a>
+      </div>
+      <div class="col-md-6">
+        <iframe src="https://www.google.com/maps?q=Nagpur&output=embed" width="100%" height="250" style="border:0;" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-black text-white text-center py-3">
   <p id="footerText"></p>
 </footer>
 
